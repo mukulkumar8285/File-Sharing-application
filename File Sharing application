@@ -1,0 +1,20 @@
+File Sharing application
+
+
+Web Server (Google Drive )
+
+user will upload the file to our server POST (http://localhost:8080/api/files/)
+genrate a shareable link (GET http://localhost:8080/files/:uuid)
+use the link to download the file (GET http://localhost:8080/files/download/:uuid)
+email notification to downloadable  (POST http://localhost:8080/api/files/send)
+
+multer :
+1. creating a multer instance 
+2. create a configuration object
+3. attach the middleware to required API or Module or App
+
+Where to Save the file ? (location)
+file validations? (single / multiple)
+required
+size
+extension
